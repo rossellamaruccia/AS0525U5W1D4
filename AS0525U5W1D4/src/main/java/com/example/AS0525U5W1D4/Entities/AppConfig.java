@@ -45,7 +45,7 @@ class AppConfig {
 
     @Primary
     @Bean
-    public Pizza margherita() {
+    public Pizza Margherita() {
         List<Topping> tList = new ArrayList<>();
         tList.add(pomodoro());
         tList.add(mozzarella());

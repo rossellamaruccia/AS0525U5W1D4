@@ -16,6 +16,9 @@ public abstract class MenuElement {
     @Setter(AccessLevel.NONE)
     private long id;
 
+    public MenuElement() {
+    }
+
     public MenuElement(int calories, double price) {
         this.calories = calories;
         this.price = price;

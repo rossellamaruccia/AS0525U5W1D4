@@ -17,6 +17,9 @@ public class Pizza extends MenuElement {
     @ManyToMany
     private List<Topping> toppings;
 
+    public Pizza() {
+    }
+
     public Pizza(String name, List<Topping> toppings) {
         super(1050, 5);
         this.name = name;
